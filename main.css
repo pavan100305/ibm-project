@@ -1,5 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 html,
 body,
@@ -135,8 +136,11 @@ table {
 body {
 	-webkit-text-size-adjust: none;
 }
+.major {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+}
 
-/* From Uiverse.io by mrtqzbek11 */
 button {
 	width: 165px;
 	height: 62px;
